@@ -1,0 +1,41 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox container with salmon background */
+.container {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    display: flex;           
+    justify-content: space-around;  
+    align-items: center;     
+    height: 100vh;           
+    background-color: salmon; /* Background color set to salmon */
+    justify-content: space-between
+}
+
+/* Flex items */
+.item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    flex: 1;                 
+    margin: 10px;
+}
+
+/* Flex items */
+.item-2 {
+    flex-grow: 100;
+    background-color: #514caf;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    flex: 1;                 
+    margin: 10px;
+}
